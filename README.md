@@ -1,9 +1,11 @@
 # get_server_last_version
-方便快捷地获取 Paper Spigot Vanilla 三个 Minecraft 服务端最新构建版本及下载链接
+方便快捷地获取 `Paper` `Spigot` `Vanilla` 三个 Minecraft 服务端最新构建版本及下载链接
 
 使用 ***BeautifulSoup*** 对网页进行快速爬取, 并且不需要 `headers` 与 `proxy` 即可获取
 
 ## 使用方法
+
+执行 `python main.py` 可以快速查看 `Paper` `Spigot` `Vanilla` 的最新版本的 dict 字典
 
 ```python
 # paper, spigot, vanilla 的用法一样
