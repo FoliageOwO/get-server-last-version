@@ -21,7 +21,7 @@ print(get_paper()['download_url']) # 获取下载链接
 
 ## All in one
 
-如果你认为嵌入文件或修改导入的方法太麻烦, 不如直接使用 `get_server_last_version.py`, 使用方法如下:
+如果你认为嵌入文件或修改导入的方法太麻烦, 那就直接使用 `get_server_last_version.py`, 使用方法如下:
 
 ```python
 from get_server_last_version import get_paper # get_spigot, get_vanilla
