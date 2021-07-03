@@ -18,3 +18,16 @@ print(get_paper()['download_url']) # 获取下载链接
 ```
 
 将其添加至项目, 只需将 `custom_typing.py` 与 `util.py` 嵌入进去或修改文件名后直接导入即可
+
+## All in one
+
+如果你认为嵌入文件或修改导入的方法太麻烦, 不如直接使用 `get_server_last_version.py`, 使用方法如下:
+
+```python
+from get_server_last_version import get_paper # get_spigot, get_vanilla
+
+print(get_paper()) # 获取整个 dict 字典
+# ...
+```
+
+这样就可以直接添加至项目, 无需多余的操作
