@@ -1,4 +1,4 @@
-# get_server_last_version
+# get-server-last-version
 方便快捷地获取 `Paper` `Spigot` `Vanilla` 三个 Minecraft 服务端最新构建版本及下载链接
 
 使用 ***BeautifulSoup*** 对网页进行快速爬取, 并且不需要 `headers` 与 `proxy` 即可获取
